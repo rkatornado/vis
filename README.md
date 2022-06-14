@@ -11,12 +11,27 @@ scientific visualization codes
   * metpyの saturation_mixing_ratio を利用
     * https://unidata.github.io/MetPy/latest/api/generated/metpy.calc.saturation_mixing_ratio.html
 
-####コード
+#### スクリプト
 * draw_4p-lfm_qv-U.ipynb
 * draw_4v-lfm_qv-U.ipynb
 * draw_4p-lfm_qv-U.py
 * draw_4v-lfm_qv-U.py
 
+
+## 水蒸気ライダーデータ可視化
+### 読み込み
+pandasを使って読み込みを行った. 
+
+#### スクリプト
+* read_vaporlidar_org.ipynb    : 読み込み練習
+* read_vaporlidar.ipynb        : 1ファイル読み込み
+* read_vaporlidar_2files.ipynb : 2ファイル読み込み
+* read_vaporlidar_multi.ipynb  : 複数ファイル読み込み
+
+### Qv
+#### スクリプト
+* draw_vaporlidar_qv.ipynb          : 1ファイルを読み込み, qvの鉛直プロファイルを描く(qv-z)
+* draw_vaporlidar_multi_qv-t.ipynb  : 複数ファイル読み込み, qvの鉛直プロファイルを描く(time-z)
 
 ## Other
 * 日時のloopのサンプルスクリプト
