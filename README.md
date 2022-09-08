@@ -37,3 +37,30 @@ pandasを使って読み込みを行った.
 * 日時のloopのサンプルスクリプト
   * pandas の date_range を利用
   * sample_loop_time.ipynb
+
+
+## CReSSの積算雨量と瞬間雨量の解析
+* calc_tpa.ipynb : 1分間雨量から積算雨量の時系列を計算しnetcdfで出力するスクリプト
+  * 入力: cress データ
+
+* draw_cress_tpa-pa_simple.ipynb : CReSSの雨量を簡易的に可視化するスクリプト
+  * 1分澗雨量の出力から積算雨量を計算し可視化
+  * 1分間雨量の時系列図の可視化
+
+* draw_cress_tpa-pa_rotate_K23.ipynb: Kato et al. (2023) の図9, 10を描くためのスクリプト
+  * cressの1分間雨量を積算し1時間積算雨量を計算(図9)
+  * blendの1時間積算雨量の差分を計算(図9)
+  * 1分間雨量を回転させ、時間変化を描画(図10)
+
+* draw_cress_tpa-pa_rotate_2peak_K23.ipynb
+  * 上記のスクリプト + 2つのピークを描く(AW-H用）
+
+* draw_cress_tpa-pa_rotate.ipynb: draw_cress_tpa-pa_rotate_K23.ipynbのblendの図なしバージョン
+
+* draw_tpa_4exp.ipynb : CReSSの積算雨量の時系列を描画する（5本の線）
+  * 事前に calc_tpa.ipynb で積算雨量の時系列データ(netcdf)を作成しておく
+
+## スネーク曲線の可視化
+* アンサンブルスネークの可視化
+  * ens_snake.ipynb
+
