@@ -44,7 +44,7 @@ pandasを使って読み込みを行った.
   * 入力: cress データ
 
 * draw_cress_tpa-pa_simple.ipynb : CReSSの雨量を簡易的に可視化するスクリプト
-  * 1分澗雨量の出力から積算雨量を計算し可視化
+  * 1分間雨量の出力から積算雨量を計算し可視化
   * 1分間雨量の時系列図の可視化
 
 * draw_cress_tpa-pa_rotate_K23.ipynb: Kato et al. (2023) の図9, 10を描くためのスクリプト
