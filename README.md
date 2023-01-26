@@ -30,8 +30,11 @@ pandasを使って読み込みを行った.
 
 ### Qv
 #### スクリプト
-* draw_vaporlidar_qv.ipynb          : 1ファイルを読み込み, qvの鉛直プロファイルを描く(qv-z)
-* draw_vaporlidar_multi_qv-t.ipynb  : 複数ファイル読み込み, qvの鉛直プロファイルを描く(time-z)
+* draw_vaporlidar_qv.ipynb          : 水蒸気ライダーデータ（1ファイル）を読み込み, qvの鉛直プロファイルを描く(qv-z)
+* draw_vaporlidar_multi_qv-z-t.ipynb  : 水蒸気ライダーデータ（複数ファイル）からqvの鉛直プロファイルを描く（z-t）
+  * Kato et al. (2023)の図3(a), 図4(a)に対応
+  * Kato et al. (2023)の図3(c), 図4(c)を描くためのNetCDFデータ（鉛直プロファイルを時間方向に連結したデータ）の出力にも利用
+
 
 ## Other
 * 日時のloopのサンプルスクリプト
