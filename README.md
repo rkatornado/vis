@@ -17,6 +17,7 @@ scientific visualization codes
 * draw_4p-lfm_qv-U.py
 * draw_4v-lfm_qv-U.py
 
+* draw_4v-lfm_multi_qv_z-t.ipynb
 
 ## 水蒸気ライダーデータ可視化
 ### 読み込み
@@ -34,7 +35,10 @@ pandasを使って読み込みを行った.
 * draw_vaporlidar_multi_qv-z-t.ipynb  : 水蒸気ライダーデータ（複数ファイル）からqvの鉛直プロファイルを描く（z-t）
   * Kato et al. (2023)の図3(a), 図4(a)に対応
   * Kato et al. (2023)の図3(c), 図4(c)を描くためのNetCDFデータ（鉛直プロファイルを時間方向に連結したデータ）の出力にも利用
-
+* draw_qv-diff_z.ipynb : 水蒸気ライダー(WVL)とLFMのQVの鉛直プロファイルを比較する図
+  * draw_vaporlidar_multi_qv_z-t.ipynb => 'wvl_Ko.nc'
+  * draw_4v-lfm_multi_qv_z-t.ipynb     => 'lfm_Ko_FT1.nc'
+                                       => 'lfm_Ko_FT0.nc'
 
 ## Other
 * 日時のloopのサンプルスクリプト
